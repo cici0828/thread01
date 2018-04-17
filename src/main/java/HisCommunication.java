@@ -17,7 +17,7 @@ public class HisCommunication {
         }
     }
 
-    private static class Bussiness{
+    class Bussiness{
         public synchronized void  sub(int j){
             for (int i = 0; i < 10 ; i++) {
                 System.out.println("sub1:" + i + " of " + j);
