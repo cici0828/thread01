@@ -28,7 +28,7 @@ public class ThreadLocalTest02 {
     static class B{
         public void get(){
             MyThreadScpoeData myData = MyThreadScpoeData.getThreadInstance();
-            System.out.println(Thread.currentThread().getName() + "-----" +  myData.getName() + ":" + myData.getAge());
+            System.out.println(Thread.currentThread().getName() + "------" +  myData.getName() + ":" + myData.getAge());
         }
     }
 
